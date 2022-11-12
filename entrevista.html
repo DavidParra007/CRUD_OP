@@ -1,0 +1,91 @@
+<div class="container-fluid">
+	<h1>Entrevistas</h1>
+	
+	<div>
+		<button id="btnEntrAdd" class="btn btn-primary btnadd btnaction" section="formulario">Add</button>
+	</div>
+
+	<div class="table-responsive">
+		<table class="table table-hover seccion">
+			<thead>
+				<tr>
+					<th scope="col">Vacante</th>
+					<th scope="col">Prospecto</th>
+					<th scope="col">Fecha_Entrevista</th>
+					<th scope="col">Notas</th>
+					<th scope="col">Reclutado</th>
+				</tr>
+			</thead>
+			<tbody id="infoEntrevista">
+			</tbody>
+		</table>
+	</div>
+	
+	<div id="FormEntrevista" class="container-fluid seccion formulario seccionHideForm">
+		
+
+		<!-- <div class="row">
+			<div class="col-sm-12 m-2">
+				<label for="vacante" class="form-label">Vacante</label>
+				<input type="vacante" id="vacante" class="form-control" aria-describedby="Vacante">
+			</div>
+		</div> -->
+
+		<div class="row">
+			<div class="col-sm-12 m-2">
+				<label for="vacante" class="form-label">Vacantes</label>
+				<select id="vacante"class="btn">
+					
+				</select>
+			</div>
+		</div>
+
+		<!-- <div class="row">
+			<div class="col-sm-12 m-2">
+				<label for="prospecto" class="form-label">Prospecto</label>
+				<input type="prospecto" id="prospecto" class="form-control" aria-describedby="Prospecto">
+			</div>
+		</div> -->
+
+		<div class="row">
+			<div class="col-sm-12 m-2">
+				<label for="prospecto" class="form-label">prospectos</label>
+				<select id="prospecto"class="btn">
+					
+				</select>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-12 m-2">
+				<label for="date">Fecha_Entrevista</label>
+				<input type="date" id="date" aria-describedby="Fecha_Entrevista">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="form-floating m-2">
+				<textarea class="form-control" placeholder="Leave a comment here" id="note"></textarea>
+				<label for="note">Notas</label>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-12 m-2">
+				<label for="reclutado" class="form-label">Reclutado</label>
+				<select id="reclutado"class="btn">
+					<option class="dropdown-item">Si</option>
+					<option class="dropdown-item">No</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-12">
+				<button id="btnEntrAcep" class="btn btn-susccess btnaction" section="table">Aceptar</button>
+				<button id="btnEntrCanc" class="btn btn-danger btnaction" section="table">Cancelar</button>
+			</div>
+		</div>
+
+	</div>
+</div>

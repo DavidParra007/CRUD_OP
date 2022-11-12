@@ -1,0 +1,58 @@
+<div class="container-fluid">
+	<h1>Prospecto</h1>
+
+	<div>
+		<button class="btn btn-primary btnadd btnaction" section="formulario">Add</button>
+	</div>
+
+	<div class="table-responsive">
+		<table class="table table-hover seccion">
+			<thead>
+				<tr>
+					<th>Nombre</th>
+					<th>Correo</th>
+					<th>Fecha_Registro</th>
+				</tr>
+			</thead>
+			<tbody id="infoProspecto">
+				<!-- <tr class="table-info">
+					<td scope="row">David</td>
+					<td>dp@gmail.com</td>
+					<td>2022-12-01</td>
+				 </tr>-->
+			</tbody>
+		</table>
+	</div>
+
+	<div class="container-fluid seccion formulario seccionHideForm">
+		<div class="row">
+			<div class="col-sm-12 m-2">
+				<label for="nombre" class="form-label">Nombre</label>
+				<input type="nombre" id="nombre" class="form-control" aria-describedby="Nombre">
+
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-12 m-2">
+				<label for="correo" class="form-label">Correo</label>
+				<input type="correo" id="correo" class="form-control" aria-describedby="Correo">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-12 m-2">
+				<label for="date">Fecha_Registro</label>
+				<input type="date" id="fecha" aria-describedby="Fecha_Entrevista">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-12 m-2">
+				<button id="btnProsAcep" class="btn btn-susccess btnaction" section="table">Aceptar</button>
+				<button id="btnProsCanc" class="btn btn-danger btnaction" section="table">Cancelar</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- style="display: none;" -->
